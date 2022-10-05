@@ -35,6 +35,7 @@ body, html {
   transform: rotate(15deg);
   overflow: visible;
   top: 10vh;
+  left: 8vh;
 }
 
 .slier__wrapper {
