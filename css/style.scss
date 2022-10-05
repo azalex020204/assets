@@ -88,8 +88,8 @@ body, html {
 .description {
 	position: absolute;
 	font-size: calc(var(--sizeindex) * .8);
-	top: 20vh;
-	left: 8vw;
+	top: 10vh;
+	left: 2vw;
 	max-width: 24vw;
 	transition: opacity var(--transition), transform var(--transition);
 	-webkit-transition: opacity var(--transition), transform var(--transition);
@@ -123,9 +123,9 @@ body, html {
 	-o-transform: translateY(5vh);
 }
 .description.hidden p {
-	transform: translateY(10vh);
-	-webkit-transform: translateY(10vh);
-	-moz-transform: translateY(10vh);
-	-ms-transform: translateY(10vh);
-	-o-transform: translateY(10vh);
+	transform: translateY(vh);
+	-webkit-transform: translateY(vh);
+	-moz-transform: translateY(vh);
+	-ms-transform: translateY(vh);
+	-o-transform: translateY(vh);
 }
